@@ -7,8 +7,7 @@ I’m an apple OS X user and CLUE doesn’t run on OS X, that was my motivation 
 
 ## Download
 [macOS 10.15](https://github.com/hsorbo/iclue/releases/download/v0.14/iClue_0.14.dmg),
-[OS X 10.5+](http://static.hsorbo.no/iclue/iClue_0.13.dmg),
-[OS X 10.4](http://static.hsorbo.no/iclue/iClue_0.8a.dmg)
+([older](https://github.com/hsorbo/iclue/releases))
 
 ## Installation
 READ the Limitations!
