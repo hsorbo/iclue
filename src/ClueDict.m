@@ -194,7 +194,7 @@ int _fe2(FILE *indexfile, FILE *dictfile, NSString *keyword, int min, int max){
 		if (strncmp(defs.def, ">>", 2) != 0){
 			[nsa appendAttributedString: 
 				[self colorize: [NSString stringWithCString: defs.def encoding: NSISOLatin1StringEncoding]
-				withColor: [NSColor blackColor]]];
+				withColor: [NSColor textColor]]];
 		}
 		else{
 		 //NSString *definition_ = [NSString stringWithCString: defs.def encoding: NSISOLatin1StringEncoding];
