@@ -27,6 +27,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>http://hsorbo.no/projects/iclue/appcast</string>
+	<string>https://raw.githubusercontent.com/hsorbo/iclue/master/appcast.xml</string>
 </dict>
 </plist>
