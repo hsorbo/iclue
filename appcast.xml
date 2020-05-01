@@ -23,7 +23,13 @@
       <title>Version 0.13 </title>
       <description>https://github.com/hsorbo/iclue</description>
       <pubDate>Mon, 2 Mar 2009 06:00:00 +0000</pubDate>
-      <enclosure url="http://hsorbo.no/files/iclue/iClue_0.13.dmg" length="1600000" type="application/octet-stream"/>
+      <enclosure url="https://github.com/hsorbo/iclue/releases/download/v0.13/iClue_0.13.dmg" length="1600000" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>Version 0.14 </title>
+      <description>https://github.com/hsorbo/iclue</description>
+      <pubDate>Mon, 1 May 2020 06:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/hsorbo/iclue/releases/download/v0.14/iClue_0.14.dmg" length="1600000" type="application/octet-stream"/>
     </item>
   </channel>
 </rss> 
