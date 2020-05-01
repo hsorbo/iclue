@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <ClueDict.h>
+#import "ClueDict.h"
 
 
 @interface DictHandler : NSObject {
