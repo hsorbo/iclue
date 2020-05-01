@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeDict = id; updateSearch = id; }; 
+            CLASS = PODock; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                dictselect = NSPopUpButton; 
+                searchfield = NSSearchField; 
+                table = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

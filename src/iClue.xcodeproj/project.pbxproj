@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1DCB3B0A4201A30008F28B /* ClueDictName.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DCB3A0A4201A30008F28B /* ClueDictName.m */; };
+		3F64C086098D3B530097011D /* IClue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C084098D3B530097011D /* IClue.m */; };
+		3F64C4DA098DA51B0097011D /* ClueDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F64C4D9098DA51B0097011D /* ClueDict.m */; };
+		3F64CE73099240BE0097011D /* DictHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F64CE72099240BE0097011D /* DictHandler.m */; };
+		4500D4C80D87269E00CD21DA /* ImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500D4C70D87269E00CD21DA /* ImportOperation.m */; };
+		4528B8D90BA8A783009E441D /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4528B8D80BA8A783009E441D /* app.icns */; };
+		458DEA3B0D88F06600CCC450 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458DEA3A0D88F06600CCC450 /* Sparkle.framework */; };
+		458DEA3E0D88F07500CCC450 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 458DEA3A0D88F06600CCC450 /* Sparkle.framework */; };
+		45B8A8200D8858FC00324430 /* liblibclue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B8A81F0D8858F400324430 /* liblibclue.a */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B8A81E0D8858F400324430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B8A81A0D8858F400324430 /* libclue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = libclue;
+		};
+		45B8A8210D88590800324430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B8A81A0D8858F400324430 /* libclue.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = libclue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45C6C6850C6558ED00C62578 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				458DEA3E0D88F07500CCC450 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* iClue_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iClue_Prefix.pch; sourceTree = "<group>"; };
+		3F1DCB390A4201A30008F28B /* ClueDictName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClueDictName.h; sourceTree = "<group>"; };
+		3F1DCB3A0A4201A30008F28B /* ClueDictName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClueDictName.m; sourceTree = "<group>"; };
+		3F64C084098D3B530097011D /* IClue.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = IClue.m; sourceTree = "<group>"; };
+		3F64C085098D3B530097011D /* IClue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IClue.h; sourceTree = "<group>"; };
+		3F64C4D8098DA51B0097011D /* ClueDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClueDict.h; sourceTree = "<group>"; };
+		3F64C4D9098DA51B0097011D /* ClueDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClueDict.m; sourceTree = "<group>"; };
+		3F64CE71099240BE0097011D /* DictHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictHandler.h; sourceTree = "<group>"; };
+		3F64CE72099240BE0097011D /* DictHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictHandler.m; sourceTree = "<group>"; };
+		4500D4C60D87269E00CD21DA /* ImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportOperation.h; sourceTree = "<group>"; };
+		4500D4C70D87269E00CD21DA /* ImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportOperation.m; sourceTree = "<group>"; };
+		4528B8D80BA8A783009E441D /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
+		458DEA3A0D88F06600CCC450 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		45B8A81A0D8858F400324430 /* libclue.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libclue.xcodeproj; path = ../../libclue/libclue.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* iClue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iClue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B8A8200D8858FC00324430 /* liblibclue.a in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				458DEA3B0D88F06600CCC450 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				3F64C084098D3B530097011D /* IClue.m */,
+				3F64C085098D3B530097011D /* IClue.h */,
+				3F64C4D8098DA51B0097011D /* ClueDict.h */,
+				3F64C4D9098DA51B0097011D /* ClueDict.m */,
+				3F64CE71099240BE0097011D /* DictHandler.h */,
+				3F64CE72099240BE0097011D /* DictHandler.m */,
+				3F1DCB390A4201A30008F28B /* ClueDictName.h */,
+				3F1DCB3A0A4201A30008F28B /* ClueDictName.m */,
+				4500D4C60D87269E00CD21DA /* ImportOperation.h */,
+				4500D4C70D87269E00CD21DA /* ImportOperation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				458DEA3A0D88F06600CCC450 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* iClue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iClue */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = iClue;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				45B8A81A0D8858F400324430 /* libclue.xcodeproj */,
+				32CA4F630368D1EE00C91783 /* iClue_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4528B8D80BA8A783009E441D /* app.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B8A81B0D8858F400324430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B8A81F0D8858F400324430 /* liblibclue.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* iClue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iClue" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				45C6C6850C6558ED00C62578 /* CopyFiles */,
+				453E2D830D1B7BC400733E96 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B8A8220D88590800324430 /* PBXTargetDependency */,
+			);
+			name = iClue;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iClue;
+			productReference = 8D1107320486CEB800E47090 /* iClue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iClue" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Norwegian,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iClue */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 45B8A81B0D8858F400324430 /* Products */;
+					ProjectRef = 45B8A81A0D8858F400324430 /* libclue.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* iClue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		45B8A81F0D8858F400324430 /* liblibclue.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibclue.a;
+			remoteRef = 45B8A81E0D8858F400324430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4528B8D90BA8A783009E441D /* app.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		453E2D830D1B7BC400733E96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -ex\n\n[ \"$ACTION\" = build ] || exit 0\n[ \"$BUILD_VARIANTS\" = \"normal\" ] || exit 0\n[ \"$DEPLOY\" = \"YES\" ] || exit 0\n\ndir=\"/tmp/disk\"\nrm -rf \"$dir\"\nmkdir \"$dir\"\n\nVERSION=$(pl -input \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info.plist\" | grep \"CFBundleVersion\" | cut -d \"\\\"\" -f 2)\n\nBIND=\"_\"\ndmg=\"/tmp/$PROJECT_NAME$BIND$VERSION.dmg\"\nrm -f \"$dmg\"\n\nenv > /tmp/ennn\n\ncp -R \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app\" \"$dir\"\nhdiutil create -srcfolder \"$dir\" -volname \"$PROJECT_NAME\" \"$dmg\"\nhdiutil internet-enable -yes \"$dmg\"\nrm -rf \"$dir\"\n\n#scp \"$dmg\" big.du.no:public_html/files/iclue";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3F64C086098D3B530097011D /* IClue.m in Sources */,
+				3F64C4DA098DA51B0097011D /* ClueDict.m in Sources */,
+				3F64CE73099240BE0097011D /* DictHandler.m in Sources */,
+				3F1DCB3B0A4201A30008F28B /* ClueDictName.m in Sources */,
+				4500D4C80D87269E00CD21DA /* ImportOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B8A8220D88590800324430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libclue;
+			targetProxy = 45B8A8210D88590800324430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F1C0570D788C7000947F79 /* Deploy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				BUILD_VARIANTS = normal;
+				CURRENT_PROJECT_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../libclue;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Deploy;
+		};
+		45F1C0580D788C7000947F79 /* Deploy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOY = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)/../../../iClue/ClueFramework/build/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../Documents/Devel/xcode\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = iClue;
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deploy;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)/../../../iClue/ClueFramework/build/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../Documents/Devel/xcode\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = "-DDEBUG";
+				PRODUCT_NAME = iClue;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)/../../../iClue/ClueFramework/build/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../Documents/Devel/xcode\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = iClue;
+				SEPARATE_STRIP = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../libclue;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				BUILD_VARIANTS = normal;
+				CURRENT_PROJECT_VERSION = "";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../libclue;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iClue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+				45F1C0580D788C7000947F79 /* Deploy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iClue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				45F1C0570D788C7000947F79 /* Deploy */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
