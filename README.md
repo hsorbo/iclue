@@ -30,7 +30,15 @@ Some search issues.
 - 64 bits
 - support dark mode
 
-### 0.11
+### 0.13 (2009.02.13)
+
+- ?
+
+### 0.12 (2008.12.25)
+
+- ?
+
+### 0.11 (2008.03.13)
 
 - Preference pane
 - Dropped Tiger support
