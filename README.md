@@ -6,9 +6,9 @@ I’m an apple OS X user and CLUE doesn’t run on OS X, that was my motivation 
 > :warning: **This repo will not compile as the the source for reading the dicts is kept private**
 
 ## Download
-[10.5+](http://static.hsorbo.no/iclue/iClue_0.13.dmg)
-
-[10.4](http://static.hsorbo.no/iclue/iClue_0.8a.dmg)
+[macOS 10.15](https://github.com/hsorbo/iclue/releases/download/v0.14/iClue_0.14.dmg),
+[OS X 10.5+](http://static.hsorbo.no/iclue/iClue_0.13.dmg),
+[OS X 10.4](http://static.hsorbo.no/iclue/iClue_0.8a.dmg)
 
 ## Installation
 READ the Limitations!
@@ -26,7 +26,7 @@ Some search issues.
 
 ## Changelog
 
-### 0.14 (unreleased)
+### 0.14 (2020.05.01)
 - 64 bits
 - support dark mode
 
