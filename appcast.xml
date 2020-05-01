@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"> 
+    <channel> 
+        <title>iClue Changelog</title> 
+        <link>http://hsorbo.no/projects/iclue/appcast</link> 
+        <description>Most recent changes with links to updates.</description> 
+        <language>en</language> 
+	<item> 
+	<title>Version 0.11 </title>
+            <description>http://hsorbo.no/projects/iclue/changes</description>
+            <pubDate>Sun, 13 Mar 2008 06:00:00 +0000</pubDate>
+            <enclosure url="http://hsorbo.no/files/iclue/iClue_0.11.dmg" length="1600000" type="application/octet-stream"/>
+         </item>
+        <item>
+	<title>Version 0.12 </title>
+            <description>http://hsorbo.no/projects/iclue/changes</description>
+            <pubDate>Thu, 25 Dec 2008 06:00:00 +0000</pubDate>
+            <enclosure url="http://hsorbo.no/files/iclue/iClue_0.12.dmg" length="1600000" type="application/octet-stream"/>
+         </item>
+	<item>
+ 	<title>Version 0.13 </title>
+            <description>http://hsorbo.no/projects/iclue/changes</description>
+            <pubDate>Mon, 2 Mar 2009 06:00:00 +0000</pubDate>
+            <enclosure url="http://hsorbo.no/files/iclue/iClue_0.13.dmg" length="1600000" type="application/octet-stream"/>
+         </item>
+    
+</channel> 
+</rss> 
