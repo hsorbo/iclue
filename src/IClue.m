@@ -199,20 +199,4 @@ NSAlert *alert = [NSAlert alertWithMessageText:@"Are you sure you want to move t
     return @"failes";
 }
 
-/*
-- (float)tableView:(NSTableView *)tableView heightOfRow:(int)row
-{
-    //row += 12952;
-    //124747, 12952
-    //NSLog(@"row: %i", row);
-    //NSMutableAttributedString *str = [cluedict getDefAt: row];
-    //NSTableColumn *col = [[tableView tableColumns] objectAtIndex: 1];
-    //NSCell *cell = [col dataCell];
-    float width = 10;
-    //float f = 30;
-    return width;
-}
-*/
-
-
 @end

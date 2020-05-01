@@ -3,7 +3,7 @@
 //  iClue
 //
 //  Created by Håvard Sørbø on 15.06.06.
-//  Copyright 2006 __MyCompanyName__. All rights reserved.
+//  Copyright 2006 Håvard Sørbø. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

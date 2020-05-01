@@ -3,7 +3,7 @@
 //  testtables
 //
 //  Created by Håvard Sørbø on 30.01.06.
-//  Copyright 2006 __MyCompanyName__. All rights reserved.
+//  Copyright 2006 Håvard Sørbø. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

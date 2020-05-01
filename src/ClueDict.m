@@ -196,38 +196,7 @@ int _fe2(FILE *indexfile, FILE *dictfile, NSString *keyword, int min, int max){
 				[self colorize: [NSString stringWithCString: defs.def encoding: NSISOLatin1StringEncoding]
 				withColor: [NSColor textColor]]];
 		}
-		else{
-		 //NSString *definition_ = [NSString stringWithCString: defs.def encoding: NSISOLatin1StringEncoding];
-       /* 
-        if ( [definition_ length] > 2 &&
-        [[definition_ substringWithRange: NSMakeRange(0 , 2)] caseInsensitiveCompare: @">>"] == NSOrderedSame){ 
-            NSMutableAttributedString *nsma = [[NSMutableAttributedString alloc] init]; 
-            
-            NSRange selectedRange = NSMakeRange(1,2);
-            NSURL *linkURL = [NSURL URLWithString:@"http://www.apple.com/"] ;
-            [nsma beginEditing];
-            [nsma addAttribute:NSLinkAttributeName value:linkURL range:selectedRange];
-            [nsma endEditing];
-            //return @"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"; 
-        }
-        */
-        
-        //NSPopUpButtonCell * popup = [[[NSPopUpButtonCell alloc] init] autorelease];
-        //[popup setBordered:NO];
-        //[popup addItemWithTitle:@"1"];
-        //NSButton * popup = [[NSButton alloc] init];
-        //NSButtonCell * popup = [[NSButtonCell alloc] init];
-        //[col setDataCell:popup];
-        //[col sizeToFit];
-        //return popup;
-       //NSLog(@"%s", defs.def);
-		//file://localhost/Users/hs/Projects/iClue/iClue.xcodeproj
-       
-		}
-		 
 	return nsa;
-      //return [[NSCell alloc] initTextCell:NSTextAttachment];
-
   }
 
 - (void) dealloc {

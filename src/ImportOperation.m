@@ -3,7 +3,7 @@
 //  iClue
 //
 //  Created by Håvard Sørbø on 11.03.08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Copyright 2008 Håvard Sørbø. All rights reserved.
 //
 
 #import "ImportOperation.h"
