@@ -4,7 +4,7 @@
   xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>iClue Changelog</title>
-    <link>https://raw.githubusercontent.com/hsorbo/iclue/sparkle-appcast-url-update/appcast.xml</link>
+    <link>https://raw.githubusercontent.com/hsorbo/iclue/master/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
