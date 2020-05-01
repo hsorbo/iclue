@@ -49,17 +49,7 @@
 
 - (void)windowDidBecomeMain:(NSNotification *)aNotification
 {
-	//Check timeout
-	NSDate *timeout = [NSDate dateWithNaturalLanguageString: @"Dec 24, 2008"];
-	NSDate *now = [NSDate date];
 	
-	
-	if([now earlierDate: timeout] == timeout){
-		NSAlert *alert = [NSAlert alertWithMessageText:@"Expired" 
-		defaultButton:@"Close" alternateButton:@"Check for updates..." 
-		otherButton:nil informativeTextWithFormat: @"Check for updates or visit http://hsorbo.no/projects/iclue"];
-		[alert beginSheetModalForWindow:window modalDelegate:self didEndSelector:@selector(checkTimeAlertDidEnd:returnCode:contextInfo:) contextInfo:nil];
-	}
 	
 	
 }
@@ -74,9 +64,6 @@
 	if (returnCode == 1)
 		exit(0);
 	[window setIsVisible: false];
-	NSLog(@"asdf %d", NSAlertSecondButtonReturn);
-	NSLog(@"return %d", returnCode);
-	//exit(0);
 }
 
 
